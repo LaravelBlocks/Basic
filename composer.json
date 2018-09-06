@@ -13,7 +13,7 @@
   ],
   "require": {
     "illuminate/support": "^5.7",
-    "laravelblocks/core": "^1.0"
+    "laravelblocks/core": "^1.1"
   },
   "autoload": {
     "psr-4": {
