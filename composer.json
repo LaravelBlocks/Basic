@@ -1,0 +1,30 @@
+{
+  "name": "laravelblocks/basic",
+  "description": "Basic blocks for the Laravel Blocks system that can be used on almost any site.",
+  "license": "MIT",
+  "keywords": ["laravel", "blocks"],
+  "authors": [
+    {
+      "name": "Nathan Heffley",
+      "email": "nathan@nathanheffley.com",
+      "homepage": "https://www.nathanheffley.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^5.7",
+    "laravelblocks/core": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelBlocks\\Basic\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelBlocks\\Basic\\LaravelBlocksBasicServiceProvider"
+      ]
+    }
+  }
+}
