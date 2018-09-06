@@ -8,6 +8,15 @@ use Illuminate\Support\Facades\View;
 class Header extends Content
 {
     /**
+     * The fields that should be exposed for editing.
+     *
+     * @var array
+     */
+    public $fields = [
+        'text' => 'text',
+    ];
+
+    /**
      * The table associated with the model.
      *
      * @var string
